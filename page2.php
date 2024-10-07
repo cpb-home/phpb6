@@ -1,5 +1,6 @@
 <?php
 
+$text = '';
 if (isset($_GET['text'])) {
     $text = htmlspecialchars($_GET['text']);
 }
